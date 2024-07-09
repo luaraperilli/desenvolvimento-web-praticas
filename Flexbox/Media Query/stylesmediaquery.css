@@ -1,0 +1,30 @@
+/* Permite modificar a estilização dependendo de características como tamanho de tela */
+@media (min-width: 100px){
+    .media-query{
+        color: rgb(236, 61, 90);
+    }
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+    width: 65%; /* Expande o container da ul */
+}
+
+li{
+    display: inline-block;
+}
+
+@media (max-width: 460px){
+    nav, ul{
+        flex-direction: column;
+    }
+}

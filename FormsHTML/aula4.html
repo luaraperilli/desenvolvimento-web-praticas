@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <h1>Aula Forms</h1>
+        <!-- Se não há nada no method ele considera GET -->
+        <form action="/cadastro" method="GET">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Nome de Usuário">
+            <!-- id realiz a comunicação entre HTML e CSS -->
+            <!-- name envia a informação do HTML para o servidor -->
+            <!-- placeholder fornece uma dica ou exemplo do tipo de informação que deve ser inserida no campo -->
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Senha">
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

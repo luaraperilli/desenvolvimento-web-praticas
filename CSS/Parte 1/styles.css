@@ -1,0 +1,33 @@
+
+/* Nesse arquivo são criadas as regras e no .hmlt é informado para quais elementos elas serão aplicadas */
+#paragrafo1{
+    text-decoration: underline 
+    wavy black
+}
+
+/* Criação de uma classe */
+.subtitulo{
+    color: blue;
+    background-color: skyblue;
+}
+
+p{
+    color: #FF69B4;
+    text-align: center;
+    /* Algumas fontes não alteram font-weight */
+    font-weight: 300;
+}
+
+/* Condições específicas
+Hover: mover o cursor do mouse sobre o elemento */
+a:hover{
+    /* Remove o sublinhado que é padrão da anchor-tag */
+    text-decoration: none
+    solid blue
+}
+
+a[href="https://www.github.com/luaraperilli"]{
+    /* O "a" controla a transparência */
+    color: rgba(81, 165, 12, 70%);
+
+}

@@ -1,0 +1,96 @@
+/* 
+Preenchimento (padding)
+Borda (border)
+Margem (margin)
+Largura (width)
+Altura (height) 
+*/
+
+
+.quadrado{
+    border: solid rgb(236, 61, 120) 5px;
+    border-radius: 10px;    /* Arredonda as bordas */
+    text-align: justify;    /* Texto justificado */
+    width: 250px;
+    margin: 10px auto;  /* Distância de uma caixa até a outra */
+    padding: 10px;  /* Distância do conteúdo para sua margem */
+}
+
+h1{
+    padding: 10px;
+    color: rgb(236, 61, 120);
+}
+
+.circulo{
+    border: dashed red 5px;
+    border-radius: 50%;
+    text-align: justify;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+figure{
+    border: 4px solid lightblue;
+    border-radius: 10px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+/* Exibe uma imagem na página */
+img{
+    display: block; /* Faz a imagem se tornar um bloco */
+    margin: 0 auto;
+    width: 90%; /* Ocupa 90% do espaço do <figure> */
+}
+
+/* Elemento usado para adicionar uma legenda numa figura dentro de um <figure> */
+figcaption{
+    text-align: center;
+}
+
+.caixa{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    margin: 10px auto;
+}
+
+/* #p1{
+    font-size: 1em;
+}
+
+#p2{
+    font-size: 2em;
+}
+
+Rem sobrepõe o ancestral (p3 fica com 2rem e não com 5px)
+#p3{
+    font-size: 2rem;
+}
+
+#div{
+    font-size: 5px;
+} */
+
+div{
+    border: 1px solid black;
+}
+
+/* 
+Pixel é uma medida absoluta (unidades de ancestrais não interferem)
+Porcentagem sobrepõe o ancestral 
+*/
+#div1, #div3{
+    width: 50%;
+}
+
+#div2, #div4{
+    width: 50px;
+}
+
+#ancestral{
+    width: 50%;
+}
+

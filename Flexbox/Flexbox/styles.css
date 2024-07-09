@@ -1,0 +1,41 @@
+section{
+    border: 3px solid;
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Empurra o elemento que não coube no Eixo Principal no sentido transversal (de cima para baixo) */
+    /* wrap-reverse empurra os elementos no sentido contrário do transversal (de baixo para cima) */
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+#div1{
+    background-color: blue;
+}
+
+#div2{
+    background-color: fuchsia;
+}
+
+#div3{
+    background-color: olivedrab;
+}
+
+#div4{
+    background-color: orangered;
+}
+
+#div5{
+    background-color: indigo;
+}
